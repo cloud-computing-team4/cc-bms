@@ -1,5 +1,5 @@
 # bms - 대량 이메일 전송 서비스 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Bulk Mailing Service&fontSize=70" />
+![header]("https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Bulk Mailing Service&fontSize=70")
 
 ## 프로젝트 멤버
 
