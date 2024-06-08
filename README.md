@@ -1,13 +1,15 @@
 # bms - 대량 이메일 전송 서비스 
-bulk 메일링 서비스
+<img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Bulk Mailing Service&fontSize=70" />
 
 ## 프로젝트 멤버
-| 이름 | 담당 파트 |
-|----------|-----------|
-| [이수빈](https://github.com/02ggang9) | 인프라 (배포)|
-| [한재안](https://github.com/JaeanHan) | 프론트엔드 (화면 UI, 메일 작성) |
-| [강수민](https://github.com/wvssm) | 백엔드 (사용자 등록, 메일 전송) |
-| [이경원](https://github.com/kyeongwon2) | PM (개발 일정 관리, PPT 및 발표영상 제작) |
+
+| 이름   | 작업 내용 |
+|--------|-------------------------------------------------------------------------------------------------------------------------------------|
+| [이수빈](https://github.com/02ggang9) | - AWS의 S3와 CloudFront를 사용해서 프론트 웹 서비스 배포<br>- AWS의 EC2, Nginx와 docker를 사용해 백엔드 웹 서비스 배포<br>- AWS IAM 서비스와 Github Actions를 이용해서 CICD 권한 세분화 및 프론트 자동화 배포 구축<br>- AWS Certificate Manager와 letsencrypt를 이용해서 ssl 인증서 발급 및 적용 |
+| [한재안](https://github.com/JaeanHan) | - React를 활용하여 UI 구현, 메일 조회, 작성, 수정 및 이벤트 상호작용 기능 개발 및 최적화 |
+| [강수민](https://github.com/wvssm) | - Spring Data JPA를 사용해 사용자 및 메일 등록, 조회, 수정, 삭제 API 개발<br>- Spring Batch를 사용해 비동기 메일 전송 API 개발  |
+| [이경원](https://github.com/kyeongwon2) | - PPT, 발표 영상 제작<br>- 프로젝트 개발 일정 계획 및 관리 |
+
 
 ## 프로젝트 소개 
 Spring Batch 프레임워크를 기반으로 만든 ***(BMS)대량 메일 전송 서비스***는 특히 다수의 고객(2만명, 3만명)에게 주요 공지사항을 한 번에 보낼 때 유용합니다.
@@ -16,7 +18,7 @@ Spring Batch 프레임워크를 기반으로 만든 ***(BMS)대량 메일 전송
 
 또한 간단한 Markdown 포맷팅(제목 및 이미지)을 지원하여 깔끔한 메일 양식을 제공합니다.
 
-## 필요성 
+## 프로젝트필요성 
 ### 느린 전송 속도
 - 이메일을 하나씩 순차적으로 보내면, 대량의 이메일을 전송하는 데 시간이 매우 많이 걸립니다. 이는 특히 수만 명의 고객에게 이메일을 보내야 할 때 심각한 문제가 됩니다.
   
@@ -75,15 +77,13 @@ Spring Batch 프레임워크를 기반으로 만든 ***(BMS)대량 메일 전송
   - DataBase(MySQL)는 EC2 인스턴스 안에 Docker container에서 동작하고 있습니다.
 
 
-## 사용 가이드
+## 사용 방법
 - 주소 접속
 - 사용자 등록
 - 메일 작성
 - 메일 전송 (사진은 캡쳐해서 넣고 - 설명)
 
-## 시연 영상 
-
-## 활용방안 
+## 활용 방안 
 - 기업 환경: 내부 커뮤니케이션과 외부 고객 커뮤니케이션을 위해 기업들은 메일링 소프트웨어를 사용하여 이메일을 관리하고, 팀원 간의 협업을 증진시킬 수 있습니다.
   
 - 마케팅 캠페인: 기업들은 메일링 소프트웨어를 사용하여 마케팅 이메일을 대량으로 발송하고, 사용자 반응을 추적하여 캠페인의 효과를 분석할 수 있습니다.
