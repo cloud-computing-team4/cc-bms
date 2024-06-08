@@ -1,0 +1,9 @@
+[submodule "src/backend"]
+	path = src/backend
+	url = https://github.com/cloud-computing-team4/bms-springboot-backend.git
+[submodule "src/frontend"]
+	path = src/frontend
+	url = https://github.com/cloud-computing-team4/bms-react-frontend.git
+[submodule "src/infra"]
+	path = src/infra
+	url = https://github.com/cloud-computing-team4/bms-Infrastructure.git
