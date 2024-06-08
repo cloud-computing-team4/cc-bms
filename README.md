@@ -1,7 +1,5 @@
-# bms - 대량 이메일 전송 서비스 
-<p>
-    <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Bulk Mailing Service   &fontSize=70" />
-</p>
+# BMS - 대량 이메일 전송 서비스 
+![header](https://capsule-render.vercel.app/api?type=waving&color=EEEEEE&height=250&section=header&text=Bulk%20Mailing%20Service&fontSize=70&animation=fadeIn&fontAlignY=38&descAlignY=60&descAlign=62)
 
 ## 프로젝트 멤버
 
@@ -14,7 +12,7 @@
 
 
 ## 프로젝트 소개 
-Spring Batch 프레임워크를 기반으로 만든 ***(BMS)대량 메일 전송 서비스***는 특히 다수의 고객(2만명, 3만명)에게 주요 공지사항을 한 번에 보낼 때 유용합니다.
+Spring Batch 프레임워크를 기반으로 만든 ***대량 메일 전송 서비스 BMS***는 특히 다수의 고객(2만명, 3만명)에게 주요 공지사항을 한 번에 보낼 때 유용합니다.
 
 청크 단위로 사용자에게 메일을 일괄적으로 보내며, 스레드 풀을 사용함으로써 작업 생성과 관리의 오버헤드를 줄이고, 병렬 처리를 통해 성능을 극대화합니다.
 
