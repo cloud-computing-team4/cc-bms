@@ -1,5 +1,5 @@
 # BMS - 대량 이메일 전송 서비스 
-![header](https://capsule-render.vercel.app/api?type=waving&color=EEEEEE&height=250&section=header&text=Bulk%20Mailing%20Service&fontSize=70&animation=fadeIn&fontAlignY=38&descAlignY=60&descAlign=62)
+![header](https://capsule-render.vercel.app/api?type=waving&color=3ABEF9&height=250&section=header&text=📨Bulk%20Mailing%20Service&fontSize=70&fontAlignY=38&descAlignY=60&descAlign=62)
 
 ## 프로젝트 멤버
 
@@ -9,7 +9,7 @@
 | [한재안](https://github.com/JaeanHan) | - React를 활용하여 UI 구현, 메일 조회, 작성, 수정 및 이벤트 상호작용 기능 개발 및 최적화 |
 | [강수민](https://github.com/wvssm) | - Spring Data JPA를 사용해 사용자 및 메일 등록, 조회, 수정, 삭제 API 개발<br>- Spring Batch를 사용해 비동기 메일 전송 API 개발  |
 | [이경원](https://github.com/kyeongwon2) | - PPT, 발표 영상 제작<br>- 프로젝트 개발 일정 계획 및 관리 |
-
+<br>
 
 ## 프로젝트 소개 
 Spring Batch 프레임워크를 기반으로 만든 ***대량 메일 전송 서비스 BMS***는 특히 다수의 고객(2만명, 3만명)에게 주요 공지사항을 한 번에 보낼 때 유용합니다.
@@ -17,8 +17,10 @@ Spring Batch 프레임워크를 기반으로 만든 ***대량 메일 전송 서�
 청크 단위로 사용자에게 메일을 일괄적으로 보내며, 스레드 풀을 사용함으로써 작업 생성과 관리의 오버헤드를 줄이고, 병렬 처리를 통해 성능을 극대화합니다.
 
 또한 간단한 Markdown 포맷팅(제목 및 이미지)을 지원하여 깔끔한 메일 양식을 제공합니다.
+<br>
+<br>
 
-## 프로젝트필요성 
+## 프로젝트 필요성 
 ### 느린 전송 속도
 - 이메일을 하나씩 순차적으로 보내면, 대량의 이메일을 전송하는 데 시간이 매우 많이 걸립니다. 이는 특히 수만 명의 고객에게 이메일을 보내야 할 때 심각한 문제가 됩니다.
   
@@ -36,7 +38,7 @@ Spring Batch 프레임워크를 기반으로 만든 ***대량 메일 전송 서�
   
 ### 실시간 모니터링 및 오류 대응의 어려움
 - 대량의 이메일을 전송하는 동안 오류가 발생했을 때, 이를 수동으로 추적하고 처리하는 데 많은 시간이 소요됩니다.
-
+<br>
 
 ## 관련 기술/논문/특허
 1.	마이메일러 (https://mymailer.kr/)
@@ -55,9 +57,9 @@ Spring Batch 프레임워크를 기반으로 만든 ***대량 메일 전송 서�
 - 이메일 디자인 템플릿 제공
 - Drag & Drop 에디터 제공
 - 마케팅 자동화를 위한 자동 이메일 전송 설정 및 명단 최신화
+<br>
 
 ## 프로젝트 개발 결과물
-
 - 서비스 설명
   - 간편하게 웹에서 메일을 대량으로 전송할 수 있는 서비스 ~(지피티로 살 더 붙이면 될듯 합니다.)
 
@@ -75,13 +77,14 @@ Spring Batch 프레임워크를 기반으로 만든 ***대량 메일 전송 서�
   - WAS는 AWS EC2 인스턴스에서 동작하고 있습니다.
   - EC2 인스턴스 안의 Nginx를 통해 로드밸런싱을 하고 있습니다.
   - DataBase(MySQL)는 EC2 인스턴스 안에 Docker container에서 동작하고 있습니다.
-
+<br>
 
 ## 사용 방법
 - 주소 접속
 - 사용자 등록
 - 메일 작성
 - 메일 전송 (사진은 캡쳐해서 넣고 - 설명)
+<br>
 
 ## 활용 방안 
 - 기업 환경: 내부 커뮤니케이션과 외부 고객 커뮤니케이션을 위해 기업들은 메일링 소프트웨어를 사용하여 이메일을 관리하고, 팀원 간의 협업을 증진시킬 수 있습니다.
