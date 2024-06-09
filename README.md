@@ -89,7 +89,9 @@ Spring Batch 프레임워크를 기반으로 만든 ***BMS***는 웹페이지에
 - 사용자 등록
 - 메일 작성
 - 메일 전송 (사진은 캡쳐해서 넣고 - 설명)
-<br>
+
+### 시연 영상
+https://github.com/cloud-computing-team4/cc-bms/assets/52875244/f63b8fe8-d03d-49bb-b295-8829d05722dd
 
 
 ## 활용 방안 
